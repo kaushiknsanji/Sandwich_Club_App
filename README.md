@@ -33,6 +33,6 @@ produces a Sandwich Object that can be used to populate the UI that you designed
 ## Things explored/developed in addition to the above defined Rubric
 
 * Used [CoordinatorLayout](/app/src/main/res/layout/activity_detail.xml) for the [DetailActivity](/app/src/main/java/com/udacity/sandwichclub/DetailActivity.java), with Collapsible Toolbar for the Backdrop Image in Parallax.
-* Applied Activity Transitions for Enter, [Exit](/app/src/main/res/transition-v21/detail_slide_enter.xml) and Return.
+* Applied Activity Transitions for [Enter](/app/src/main/res/transition-v21/detail_slide_enter.xml), Exit and Return.
 * Added Coordinated Motion to the List items shown in the [layout](/app/src/main/res/layout/activity_main.xml) inflated by [MainActivity](/app/src/main/java/com/udacity/sandwichclub/MainActivity.java).
 * Explored Palette API which is used to decorate the layout shown by DetailActivity.
