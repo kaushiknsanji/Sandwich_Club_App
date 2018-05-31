@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Enabling window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <!-- MainActivity Theme -->
+    <style name="AppTheme.Main">
+        <!-- Exit transition -->
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+    </style>
+
+    <!-- DetailActivity Theme -->
+    <style name="AppTheme.Detail">
+        <!-- No ActionBar for Custom Toolbar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Makes the content flow behind the status bar : START -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- Makes the content flow behind the status bar : END -->
+        <!-- Enter transition -->
+        <item name="android:windowEnterTransition">@transition/detail_slide_enter</item>
+        <item name="android:windowReturnTransition">@android:transition/slide_right</item>
+    </style>
+
+</resources>

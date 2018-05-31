@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Enter Transition played for the DetailActivity -->
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_mediumAnimTime"
+    android:transitionOrdering="together">
+    <!-- Transitions played together -->
+
+    <!-- Enter Slide transition from Top excluding Sandwich details text content -->
+    <slide
+        android:interpolator="@android:interpolator/linear_out_slow_in"
+        android:slideEdge="top">
+        <targets>
+            <target android:excludeId="@android:id/navigationBarBackground" />
+            <target android:excludeId="@android:id/statusBarBackground" />
+            <target android:excludeId="@id/sandwich_content_layout" />
+        </targets>
+    </slide>
+
+    <!-- Enter Slide transition from Bottom for Sandwich details text content -->
+    <slide
+        android:interpolator="@android:interpolator/linear_out_slow_in"
+        android:slideEdge="bottom"
+        android:startDelay="20">
+        <targets>
+            <target android:targetId="@id/sandwich_content_layout" />
+        </targets>
+    </slide>
+
+</transitionSet>

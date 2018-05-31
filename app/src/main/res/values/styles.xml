@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- MainActivity Theme -->
+    <style name="AppTheme.Main" />
+
+    <!-- DetailActivity Theme -->
+    <style name="AppTheme.Detail">
+        <!-- No ActionBar for Custom Toolbar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- ============================== -->
+    <!-- STYLES USED IN DETAIL ACTIVITY -->
+    <!-- ============================== -->
+
+    <!-- Parent Style for the Text content in Detail Activity -->
+    <style name="DetailTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintLeft_toLeftOf">@+id/left_guideline</item>
+        <item name="layout_constraintStart_toStartOf">@+id/left_guideline</item>
+        <item name="layout_constraintEnd_toEndOf">@+id/right_guideline</item>
+        <item name="layout_constraintRight_toRightOf">@+id/right_guideline</item>
+    </style>
+
+    <!-- Child Style of 'DetailTextStyle' used for the Labels in Detail Activity -->
+    <style name="DetailTextStyle.Label">
+        <item name="android:textSize">@dimen/detail_label_text_size</item>
+        <item name="android:fontFamily">@font/croissant_one</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!-- Child Style of 'DetailTextStyle' used for the Content in Detail Activity -->
+    <style name="DetailTextStyle.Content">
+        <item name="android:textSize">@dimen/detail_content_text_size</item>
+        <item name="android:fontFamily">@font/quintessential</item>
+        <item name="layout_constrainedWidth">true</item>
+        <item name="android:layout_marginTop">@dimen/detail_content_text_margin_top</item>
+    </style>
+
+</resources>

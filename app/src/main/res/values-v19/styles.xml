@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DetailActivity Theme -->
+    <style name="AppTheme.Detail">
+        <!-- No ActionBar for Custom Toolbar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Makes the content flow behind the status bar -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>
