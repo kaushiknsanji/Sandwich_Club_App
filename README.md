@@ -1,4 +1,4 @@
-# Sandwich Club Project Starter Code
+# Sandwich Club Project
 
 ## Project Overview
 In this project, you will complete the **Sandwich Club** app to
@@ -28,11 +28,11 @@ produces a Sandwich Object that can be used to populate the UI that you designed
 ## Implementation of the App
 
 <!-- Video of the App -->
-<!-- [![Video of Complete App Flow](https://i.ytimg.com/vi/XzZbe7aYeXU/maxresdefault.jpg)](https://youtu.be/XzZbe7aYeXU) -->
+[![Video of Complete App Flow](https://i.ytimg.com/vi/b-BL7mM0tKM/maxresdefault.jpg)](https://youtu.be/b-BL7mM0tKM)
 
 ## Things explored/developed in addition to the above defined Rubric
 
-* Used CoordinatorLayout for the DetailActivity, with Collapsible Toolbar for the Backdrop Image in Parallax.
-* Applied Activity Transitions for Enter, Exit and Return.
-* Added Coordinated Motion to the List items shown in the layout inflated by MainActivity.
+* Used [CoordinatorLayout](/app/src/main/res/layout/activity_detail.xml) for the [DetailActivity](/app/src/main/java/com/udacity/sandwichclub/DetailActivity.java), with Collapsible Toolbar for the Backdrop Image in Parallax.
+* Applied Activity Transitions for Enter, [Exit](/app/src/main/res/transition-v21/detail_slide_enter.xml) and Return.
+* Added Coordinated Motion to the List items shown in the [layout](/app/src/main/res/layout/activity_main.xml) inflated by [MainActivity](/app/src/main/java/com/udacity/sandwichclub/MainActivity.java).
 * Explored Palette API which is used to decorate the layout shown by DetailActivity.
