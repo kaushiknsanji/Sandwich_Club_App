@@ -30,7 +30,13 @@ produces a Sandwich Object that can be used to populate the UI that you designed
 <!-- Video of the App -->
 [![Video of Complete App Flow](https://i.ytimg.com/vi/b-BL7mM0tKM/maxresdefault.jpg)](https://youtu.be/b-BL7mM0tKM)
 
-## Things explored/developed in addition to the above defined Rubric
+### Sample Screenshots
+
+|Main Screen|Detail Screen|Detail Screen (Collapsed)|
+|---|---|---|
+|![main_screen](https://user-images.githubusercontent.com/26028981/41117978-24c8d334-6aac-11e8-9c14-66f10c9577e2.png)|![detail_screen](https://user-images.githubusercontent.com/26028981/41117980-27c3a1c2-6aac-11e8-9640-6669f11f76fd.png)|![detail_screen_collapsed](https://user-images.githubusercontent.com/26028981/41117984-2b27bed4-6aac-11e8-9fe9-bf0e18019eaa.png)|
+
+### Things explored/developed in addition to the above defined Rubric
 
 * Used [CoordinatorLayout](/app/src/main/res/layout/activity_detail.xml) for the [DetailActivity](/app/src/main/java/com/udacity/sandwichclub/DetailActivity.java), with Collapsible Toolbar for the Backdrop Image in Parallax.
 * Applied Activity Transitions for [Enter](/app/src/main/res/transition-v21/detail_slide_enter.xml), Exit and Return.
@@ -41,3 +47,7 @@ produces a Sandwich Object that can be used to populate the UI that you designed
 
 * For the Shawarma item, which is having an image link that does not exist, a Sandwich [image](/app/src/main/res/drawable/detail_error_image.xml) will be displayed in such cases.
 * Missing information such as no **"Also known as"** or **"Place of origin"** has been handled suitably, which is either displayed saying **"Unknown"** or totally hidden from the UI.
+
+## Review from the Reviewer (Udacity)
+
+![review](https://user-images.githubusercontent.com/26028981/41118001-38b689ae-6aac-11e8-9ff9-f3b51d92bc3d.PNG)
