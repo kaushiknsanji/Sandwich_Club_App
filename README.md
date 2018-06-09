@@ -32,7 +32,7 @@ produces a Sandwich Object that can be used to populate the UI that you designed
 
 ### Sample Screenshots
 
-|Main Screen|Detail Screen|Detail Screen (Collapsed)|
+|Main Screen|Detail Screen|Detail Screen (Collapsed Toolbar)|
 |---|---|---|
 |![main_screen](https://user-images.githubusercontent.com/26028981/41117978-24c8d334-6aac-11e8-9c14-66f10c9577e2.png)|![detail_screen](https://user-images.githubusercontent.com/26028981/41117980-27c3a1c2-6aac-11e8-9640-6669f11f76fd.png)|![detail_screen_collapsed](https://user-images.githubusercontent.com/26028981/41117984-2b27bed4-6aac-11e8-9fe9-bf0e18019eaa.png)|
 
@@ -45,7 +45,7 @@ produces a Sandwich Object that can be used to populate the UI that you designed
 
 ### Information in general, on the entire app
 
-* For the Shawarma item, which is having an image link that does not exist, a Sandwich [image](/app/src/main/res/drawable/detail_error_image.xml) will be displayed in such cases.
+* For the Shawarma item, which is having an image link that is invalid, a Sandwich [image](/app/src/main/res/drawable/detail_error_image.xml) will be displayed in such cases.
 * Missing information such as no **"Also known as"** or **"Place of origin"** has been handled suitably, which is either displayed saying **"Unknown"** or totally hidden from the UI.
 
 ## Review from the Reviewer (Udacity)
